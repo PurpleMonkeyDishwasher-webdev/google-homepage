@@ -1,4 +1,4 @@
-Google Homepage V 1.0
+# Google Homepage V 1.0
 
 This project is intended to recreate Google's homepage for the purposes of facilitating hands-on learning.  This is completed as part of the curriculum of The Odin Project.
 
@@ -10,3 +10,5 @@ What could be improved: A more thorough investigation into reflexivity of the co
 
 
 If there are any comments that other Github users would like to share, please feel free to do so using my page.
+
+Link to Demo: https://PurpleMonkeyDishwasher-webdev.github.io/google-homepage

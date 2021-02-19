@@ -178,7 +178,6 @@ li > a {
     width: 100%;
     background: rgba(129, 129, 129, 0.1);
     padding-bottom: 50px;
-
 }
 
 .footerCountry {
@@ -204,7 +203,7 @@ li > a {
     min-width: 400px; 
 }
 
-.footerComplete > ul {
+.footerCompleteLeft, .footerCompleteRight {
     margin: 5px;
 }
 
@@ -236,5 +235,17 @@ li > a {
     .frenchText {
         margin-left: 120px;
         margin-top: 36px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .footerCompleteLeft {
+        margin-left: -20rem;
+    }
+
+    .footerCompleteRight {
+        margin-right: -18rem;
+        
     }
 }

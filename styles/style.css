@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+
+/* General */
+
+li {
+    display: inline;
+}
+
+li > a {
+    text-decoration: none;
+    margin-left: 14px;
+}
+
+
+/* Header */
+
+.header {
+    margin-top: 20px;
+    margin-left: 20px;
+    min-width: 420px;
+}
+
+.headerRight {
+    float: right;
+}
+
+.images {
+    margin-right: 25px;
+}
+
+.signin {
+    text-decoration: none;
+    margin-right: 20px;
+    background: #1a73e8;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: -10px;
+}
+
+.signin:hover {
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+.appsIcon {
+    width: 20px;
+    margin-right: 12px;
+}
+
+.appsIcon:hover {
+    background: rgba(129, 129, 129, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+/* Search Bar and Logo */
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 197px;
+}
+
+.search {
+    border-radius: 24px;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+    max-width: 600px;
+    min-width: 400px;
+    margin: 29px auto;
+    padding: 10px;
+}
+
+.search:hover {
+    box-shadow: 0 1px 4px rgb(102, 102, 102);
+}
+
+.searchBar {
+    width: 90%;
+    min-width: 375px;
+    border: none;
+    background-color: transparent;
+    margin-left: 40px;
+    border-right: 200px;
+    height: 20px;
+    outline: none;
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+}
+
+.searchGlass {
+    width: 30px;
+    margin-top: -24px;
+    margin-left: 4px;
+    position: absolute;
+}
+
+
+/* Search and feeling lucky buttons */
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.buttonSearch {
+    margin-right: 18px;
+    text-decoration: none;
+    background: rgba(129, 129, 129, 0.07);
+    padding: 10px 20px;
+    border-radius: 3%;
+    max-width: 100%;
+    max-height: 100%;
+    white-space: nowrap;
+    height: 0%;
+
+}
+
+.buttonLucky {
+    text-decoration: none;
+    background: rgba(129, 129, 129, 0.07);
+    padding: 10px 18px;
+    border-radius: 3%;
+    max-width: 100%;
+    max-height: 100%;
+    white-space: nowrap;
+    height: 0%;
+}
+
+.buttonSearch:hover {
+    box-shadow: 0 1px 4px rgb(102, 102, 102);
+}
+
+.buttonLucky:hover {
+    box-shadow: 0 1px 4px rgb(102, 102, 102);
+}
+
+/* French version */
+
+.french {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.frenchText {
+    font-size: 12px;
+}
+
+.frenchLink {
+    text-decoration: none;
+    color: blue;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(129, 129, 129, 0.1);
+    padding-bottom: 50px;
+
+}
+
+.footerCountry {
+    margin-left: 28px;
+    margin-top: 18px;
+    font-size: 16px;
+    color: rgba(0,0,0,.5)
+}
+
+.footerLine {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid  rgba(0,0,0,0.1);
+}
+
+.footerComplete {
+    display: flex;
+    justify-content: space-around;
+    white-space: nowrap;
+    text-decoration: none;
+    margin: 15px 10px -35px;
+    flex-wrap: wrap;
+    min-width: 400px; 
+}
+
+.footerComplete > ul {
+    margin: 5px;
+}
+
+.footerLeftItems, .footerRightItems {
+    color: rgba(0,0,0,.5);
+}
+
+
+@media (max-width: 400px) {
+    * {
+        margin-bottom: 0;
+    }
+    
+    .logo {
+        justify-content: flex-start;
+        margin-left: 62px;
+    }
+
+    .button {
+        position: absolute;
+        margin-left: 50px;
+    }
+
+    .french {
+        position: absolute;
+        white-space: nowrap;
+    }
+
+    .frenchText {
+        margin-left: 120px;
+        margin-top: 36px;
+    }
+}

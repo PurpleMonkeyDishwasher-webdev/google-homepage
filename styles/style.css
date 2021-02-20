@@ -128,7 +128,6 @@ li > a {
     max-height: 100%;
     white-space: nowrap;
     height: 0%;
-
 }
 
 .buttonLucky {
@@ -240,12 +239,7 @@ li > a {
 
 @media (min-width: 1200px) {
 
-    .footerCompleteLeft {
-        margin-left: -20rem;
-    }
-
-    .footerCompleteRight {
-        margin-right: -18rem;
-        
+    .footerComplete {
+        justify-content:space-between;
     }
 }
